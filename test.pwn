@@ -1,5 +1,6 @@
 #include <cef>
-
+#include <sscanf2>
+#include <Pawn.CMD>
 
 forward HudCef(player_id);
 
