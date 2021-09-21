@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#hud {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    overflow: visible;
+    visibility: visible;
+}
+#logotype {
+    position: absolute;
+    width: 193px;
+    height: 64px;
+    right: 146px;
+    top: 24px;
+    overflow: visible;
+}
+#health {
+    position: absolute;
+    width: 134.844px;
+    height: 11.81px;
+    right: 258px;
+    top: 113.517px;
+    overflow: visible;
+}
+#health-background {
+    opacity: 0.5;
+    fill: rgba(35,35,35,1);
+}
+.health-background {
+    position: absolute;
+    overflow: visible;
+    width: 116px;
+    height: 9px;
+    left: 18.844px;
+    top: 1.483px;
+}
+#health-progress {
+    fill: rgba(255,74,74,1);
+}
+.health-progress {
+    position: absolute;
+    overflow: visible;
+    width: 62px;
+    height: 9px;
+    left: 18.844px;
+    top: 1.483px;
+}
+#health-icon {
+    fill: rgba(255,74,74,1);
+}
+.health-icon {
+    overflow: visible;
+    position: absolute;
+    width: 13.497px;
+    height: 11.81px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#armor {
+    position: absolute;
+    width: 134.844px;
+    height: 16.496px;
+    right: 258px;
+    top: 139.782px;
+    overflow: visible;
+}
+#armor-background {
+    opacity: 0.5;
+    fill: rgba(35,35,35,1);
+}
+.armor-background {
+    position: absolute;
+    overflow: visible;
+    width: 116px;
+    height: 9px;
+    left: 18.844px;
+    top: 4.218px;
+}
+#armor-progress {
+    fill: rgba(77,105,249,1);
+}
+.armor-progress {
+    position: absolute;
+    overflow: visible;
+    width: 62px;
+    height: 9px;
+    left: 18.844px;
+    top: 4.218px;
+}
+#armor-icon {
+    fill: rgba(77,105,249,1);
+}
+.armor-icon {
+    overflow: visible;
+    position: absolute;
+    width: 13.497px;
+    height: 16.496px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#hunger {
+    position: absolute;
+    width: 136px;
+    height: 14.196px;
+    right: 258px;
+    top: 169.712px;
+    overflow: visible;
+}
+#hunger-background {
+    opacity: 0.5;
+    fill: rgba(35,35,35,1);
+}
+.hunger-background {
+    position: absolute;
+    overflow: visible;
+    width: 116px;
+    height: 10px;
+    left: 20px;
+    top: 2.288px;
+}
+#hunger-progress {
+    fill: rgba(255,162,0,1);
+}
+.hunger-progress {
+    position: absolute;
+    overflow: visible;
+    width: 62px;
+    height: 10px;
+    left: 20px;
+    top: 2.288px;
+}
+#hunger-icon {
+    fill: rgba(255,162,0,1);
+}
+.hunger-icon {
+    overflow: visible;
+    position: absolute;
+    width: 15.357px;
+    height: 14.196px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#money {
+    position: absolute;
+    width: 158.062px;
+    height: 33px;
+    right: 247px;
+    top: 195px;
+    overflow: visible;
+}
+#money-balance {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 137px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(255,255,255,1);
+}
+#money-icon {
+    fill: rgba(32,167,0,1);
+}
+.money-icon {
+    overflow: visible;
+    position: absolute;
+    width: 16.062px;
+    height: 30.849px;
+    left: 142px;
+    top: 2.076px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#wanted {
+    position: absolute;
+    width: 179.326px;
+    height: 24.57px;
+    right: 236px;
+    top: 240.537px;
+}
+#wanteds_1 {
+    fill: rgb(255, 162, 0); 
+}
+.wanted_1 {
+    position: absolute;
+    width: 25.67px;
+    height: 24.57px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#wanteds_2 {
+    fill: rgba(35,35,35,1);
+}
+.wanted_2 {
+    position: absolute;
+    width: 25.67px;
+    height: 24.57px;
+    left: 30.731px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#wanteds_3 {
+    fill: rgba(35,35,35,1);
+}
+.wanted_3 {
+    position: absolute;
+    width: 25.67px;
+    height: 24.57px;
+    left: 61.463px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#wanteds_4 {
+    fill: rgba(35,35,35,1);
+}
+.wanted_4 {
+    position: absolute;
+    width: 25.67px;
+    height: 24.57px;
+    left: 92.194px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#wanteds_5 {
+    fill: rgba(35,35,35,1);
+}
+.wanted_5 {
+    position: absolute;
+    width: 25.67px;
+    height: 24.57px;
+    left: 122.925px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#wanteds_6 {
+    fill: rgba(35,35,35,1);
+}
+.wanted_6 {
+    position: absolute;
+    width: 25.67px;
+    height: 24.57px;
+    left: 153.656px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#weapon {
+    position: absolute;
+    width: 225px;
+    height: 188.5px;
+    right: 83px;
+    top: 88px;
+    overflow: visible;
+}
+#weapon_background {
+    position: absolute;
+    width: 225px;
+    height: 180px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#weapon_ammo {
+    left: 159px;
+    top: 129px;
+    position: absolute;
+    overflow: visible;
+    width: 25px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 17px;
+    color: rgba(255,255,255,1);
+}
+#weapon_model {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 86px;
+    top: 33px;
+    overflow: visible;
+}
